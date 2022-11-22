@@ -1,0 +1,589 @@
+# do vlog.do
+# Model Technology ModelSim SE vlog 10.3e Compiler 2015.02 Feb 23 2015
+# Start time: 13:52:11 on Oct 17,2022
+# vlog /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/fir.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_4b.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/mag2com.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree26.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree14.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree6.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree4.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x14b.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x7b.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x4b.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x2b.v /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v 
+# -- Compiling module fir
+# -- Compiling module ff_4b
+# -- Compiling module shift_mul
+# -- Compiling module mag2com
+# -- Compiling module adder_tree26
+# -- Compiling module adder_tree14
+# -- Compiling module adder_tree6
+# -- Compiling module adder_tree4
+# -- Compiling module adder_tree2
+# -- Compiling module ff_16x14b
+# -- Compiling module ff_16x7b
+# -- Compiling module ff_16x4b
+# -- Compiling module ff_16x2b
+# ** Warning: /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v(4): (vlog-2275) 'adder_tree2' already exists and will be overwritten.
+# -- Compiling module adder_tree2
+# 
+# Top level modules:
+# 	fir
+# End time: 13:52:11 on Oct 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE vlog 10.3e Compiler 2015.02 Feb 23 2015
+# Start time: 13:52:11 on Oct 17,2022
+# vlog /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v 
+# -- Compiling module tb_fir
+# 
+# Top level modules:
+# 	tb_fir
+# End time: 13:52:11 on Oct 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "vlog.do" 
+# Start time: 13:52:11 on Oct 17,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  ModelSim SE 10.3e Feb 23 2015 Linux 3.10.0-957.27.2.el7.x86_64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_fir
+# Loading work.fir
+# Loading work.mag2com
+# Loading work.ff_4b
+# Loading work.ff_16x14b
+# Loading work.ff_16x7b
+# Loading work.ff_16x4b
+# Loading work.ff_16x2b
+# Loading work.shift_mul
+# Loading work.adder_tree26
+# Loading work.adder_tree14
+# Loading work.adder_tree6
+# Loading work.adder_tree4
+# Loading work.adder_tree2
+# Initial value [                   0]
+# [                   5]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [xxxxxxxxxxxxxxxx]/[     x]
+# o_ff_1
+# [                  15]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  25]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  35]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  45]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  55]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  65]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  75]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  85]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                  95]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                 105]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# clear [                 105]
+# [                 115]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# clear complete [                 120]
+#  output ([0000000000000000])[     0]
+# [                 125]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                 135]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                 145]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [0000000000000000]/[     0]
+# o_ff_1
+# [                 155]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [1111111111111000]/[    -8]
+# o_ff_1
+# [                 165]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [1111111111011001]/[   -39]
+# o_ff_1
+# [                 175]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [1111111111011110]/[   -34]
+# o_ff_1
+# [                 185]
+#  verilog_out = [0000000000000000]/[     0]
+# golden_value = [1111111110110011]/[   -77]
+# o_ff_1
+# [                 195]
+#  verilog_out = [1111111111111000]/[    -8]
+# golden_value = [1111111110110110]/[   -74]
+# o_ff_1
+# [                 205]
+#  verilog_out = [1111111111011001]/[   -39]
+# golden_value = [1111111110000010]/[  -126]
+# o_ff_1
+# [                 215]
+#  verilog_out = [1111111111011110]/[   -34]
+# golden_value = [1111111101110110]/[  -138]
+# o_ff_1
+# [                 225]
+#  verilog_out = [1111111110110011]/[   -77]
+# golden_value = [1111111101000110]/[  -186]
+# o_ff_1
+# [                 235]
+#  verilog_out = [1111111110110110]/[   -74]
+# golden_value = [1111111100010111]/[  -233]
+# o_ff_1
+# [                 245]
+#  verilog_out = [1111111110000010]/[  -126]
+# golden_value = [1111111011101010]/[  -278]
+# o_ff_1
+# [                 255]
+#  verilog_out = [1111111101110110]/[  -138]
+# golden_value = [1111111001101000]/[  -408]
+# o_ff_1
+# [                 265]
+#  verilog_out = [1111111101000110]/[  -186]
+# golden_value = [1111111001010101]/[  -427]
+# o_ff_1
+# [                 275]
+#  verilog_out = [1111111100010111]/[  -233]
+# golden_value = [1111110000110110]/[  -970]
+# o_ff_1
+# [                 285]
+#  verilog_out = [1111111011101010]/[  -278]
+# golden_value = [1111100001111110]/[ -1922]
+# o_ff_1
+# [                 295]
+#  verilog_out = [1111111001101000]/[  -408]
+# golden_value = [1111011100111010]/[ -2246]
+# o_ff_1
+# [                 305]
+#  verilog_out = [1111111001010101]/[  -427]
+# golden_value = [1111100001011101]/[ -1955]
+# o_ff_1
+# [                 315]
+#  verilog_out = [1111110000110110]/[  -970]
+# golden_value = [1111100100100100]/[ -1756]
+# o_ff_1
+# [                 325]
+#  verilog_out = [1111100001111110]/[ -1922]
+# golden_value = [1111101000110001]/[ -1487]
+# o_ff_1
+# [                 335]
+#  verilog_out = [1111011100111010]/[ -2246]
+# golden_value = [1111101110001101]/[ -1139]
+# o_ff_1
+# [                 345]
+#  verilog_out = [1111100001011101]/[ -1955]
+# golden_value = [1111110010011011]/[  -869]
+# o_ff_1
+# [                 355]
+#  verilog_out = [1111100100100100]/[ -1756]
+# golden_value = [1111111000100100]/[  -476]
+# o_ff_1
+# [                 365]
+#  verilog_out = [1111101000110001]/[ -1487]
+# golden_value = [1111111100100000]/[  -224]
+# o_ff_1
+# [                 375]
+#  verilog_out = [1111101110001101]/[ -1139]
+# golden_value = [0000000010010100]/[   148]
+# o_ff_1
+# [                 385]
+#  verilog_out = [1111110010011011]/[  -869]
+# golden_value = [0000000110001101]/[   397]
+# o_ff_1
+# [                 395]
+#  verilog_out = [1111111000100100]/[  -476]
+# golden_value = [0000001010100011]/[   675]
+# o_ff_1
+# [                 405]
+#  verilog_out = [1111111100100000]/[  -224]
+# golden_value = [0000001101111111]/[   895]
+# o_ff_1
+# [                 415]
+#  verilog_out = [0000000010010100]/[   148]
+# golden_value = [0000001110101100]/[   940]
+# o_ff_1
+# [                 425]
+#  verilog_out = [0000000110001101]/[   397]
+# golden_value = [0000010001111011]/[  1147]
+# o_ff_1
+# [                 435]
+#  verilog_out = [0000001010100011]/[   675]
+# golden_value = [0000000100001110]/[   270]
+# o_ff_1
+# [                 445]
+#  verilog_out = [0000001101111111]/[   895]
+# golden_value = [1111100110000010]/[ -1662]
+# o_ff_1
+# [                 455]
+#  verilog_out = [0000001110101100]/[   940]
+# golden_value = [1111010100111010]/[ -2758]
+# o_ff_1
+# [                 465]
+#  verilog_out = [0000010001111011]/[  1147]
+# golden_value = [1111010011010011]/[ -2861]
+# o_ff_1
+# [                 475]
+#  verilog_out = [0000000100001110]/[   270]
+# golden_value = [1111001110110000]/[ -3152]
+# o_ff_1
+# [                 485]
+#  verilog_out = [1111100110000010]/[ -1662]
+# golden_value = [1111001100110110]/[ -3274]
+# o_ff_1
+# [                 495]
+#  verilog_out = [1111010100111010]/[ -2758]
+# golden_value = [1111001011000001]/[ -3391]
+# o_ff_1
+# [                 505]
+#  verilog_out = [1111010011010011]/[ -2861]
+# golden_value = [1111001001010010]/[ -3502]
+# o_ff_1
+# [                 515]
+#  verilog_out = [1111001110110000]/[ -3152]
+# golden_value = [1111001000101010]/[ -3542]
+# o_ff_1
+# [                 525]
+#  verilog_out = [1111001100110110]/[ -3274]
+# golden_value = [1111000110111110]/[ -3650]
+# o_ff_1
+# [                 535]
+#  verilog_out = [1111001011000001]/[ -3391]
+# golden_value = [1111000110111010]/[ -3654]
+# o_ff_1
+# [                 545]
+#  verilog_out = [1111001001010010]/[ -3502]
+# golden_value = [1111000101100101]/[ -3739]
+# o_ff_1
+# [                 555]
+#  verilog_out = [1111001000101010]/[ -3542]
+# golden_value = [1111000101101010]/[ -3734]
+# o_ff_1
+# [                 565]
+#  verilog_out = [1111000110111110]/[ -3650]
+# golden_value = [1111000100101111]/[ -3793]
+# o_ff_1
+# [                 575]
+#  verilog_out = [1111000110111010]/[ -3654]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 585]
+#  verilog_out = [1111000101100101]/[ -3739]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 595]
+#  verilog_out = [1111000101101010]/[ -3734]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 605]
+#  verilog_out = [1111000100101111]/[ -3793]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 615]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 625]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 635]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 645]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 655]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 665]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 675]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 685]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 695]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 705]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 715]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 725]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 735]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 745]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 755]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 765]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 775]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 785]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 795]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 805]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 815]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 825]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 835]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 845]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 855]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 865]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 875]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 885]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 895]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 905]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 915]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 925]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 935]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 945]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 955]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 965]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 975]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 985]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                 995]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1005]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1015]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1025]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1035]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1045]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1055]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1065]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1075]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1085]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1095]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1105]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1115]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1125]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1135]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1145]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1155]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1165]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1175]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1185]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1195]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1205]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1215]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1225]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1235]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1245]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1255]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1265]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1275]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# [                1285]
+#  verilog_out = [1111000100100000]/[ -3808]
+# golden_value = [1111000100100000]/[ -3808]
+# o_ff_1
+# Finish! [                1290]
+# ** Note: $finish    : /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v(170)
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_fir
+# End time: 13:52:13 on Oct 17,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1

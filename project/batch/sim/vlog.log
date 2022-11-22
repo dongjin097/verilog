@@ -1,0 +1,54 @@
+Reading pref.tcl
+
+# 10.3e
+
+# do vlog.do
+# Model Technology ModelSim SE vlog 10.3e Compiler 2015.02 Feb 23 2015
+# Start time: 14:12:52 on Oct 15,2022
+# vlog /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v 
+# -- Compiling module shift_mul
+# 
+# Top level modules:
+# 	shift_mul
+# End time: 14:12:52 on Oct 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE vlog 10.3e Compiler 2015.02 Feb 23 2015
+# Start time: 14:12:52 on Oct 15,2022
+# vlog /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_shift_mul.v 
+# -- Compiling module tb_shift_mul
+# 
+# Top level modules:
+# 	tb_shift_mul
+# End time: 14:12:52 on Oct 15,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "vlog.do" 
+# Start time: 14:12:52 on Oct 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  ModelSim SE 10.3e Feb 23 2015 Linux 3.10.0-957.27.2.el7.x86_64
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_shift_mul
+# Loading work.shift_mul
+# ** Error: Unable to lock WLF file "/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf
+#           File in use by: 2022_2_iccad12  Hostname: soclinux.yonsei.ac.kr  ProcessID: 8741
+#           Attempting to use alternate WLF file "/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/wlftmvSqPM".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/tbwave_shift_mul.wlf
+#           Using alternate file: /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/result/sim/wlftmvSqPM
+# End time: 14:12:59 on Oct 15,2022, Elapsed time: 0:00:07
+# Errors: 4, Warnings: 3

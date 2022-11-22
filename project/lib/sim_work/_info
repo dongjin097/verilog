@@ -1,0 +1,290 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/lib
+vadder_tree14
+Z0 !s110 1665982331
+!i10b 1
+!s100 W0L3ZJcVNJcXG04M9OKP62
+I>e94Jinc9EL9M6fQf:IGh2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 d/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/batch/sim
+Z3 w1665981833
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree14.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree14.v
+L0 4
+Z4 OE;L;10.3e;59
+r1
+!s85 0
+31
+Z5 !s108 1665982331.817492
+Z6 !s107 /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x2b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x4b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x7b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x14b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree4.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree6.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree14.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree26.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/mag2com.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_4b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/fir.v|
+Z7 !s90 /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/fir.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_4b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/mag2com.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree26.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree14.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree6.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree4.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x14b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x7b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x4b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x2b.v|/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v|
+!i113 1
+Z8 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_tree2
+R0
+!i10b 1
+!s100 ;Z[XVZ0Wi=5UVBn=5c<HG1
+IJ0OjIT<A]IVQMNBd[Nm:60
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree2.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vadder_tree26
+R0
+!i10b 1
+!s100 WhP^0WT8PlBfVL4JG?8aI0
+ILnFj?VMS=Y;l0R_ZWWjA13
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree26.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree26.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vadder_tree4
+R0
+!i10b 1
+!s100 h10Ob^Y`30eVn;[>F:z7M0
+I0^1J1cB8=JNVkTX3ze`<Z0
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree4.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree4.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vadder_tree6
+R0
+!i10b 1
+!s100 [Ne<^z;Hd<;n;T>Gn7@CI0
+IOVL8l_Az<B2MiQb2]]Jhj2
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree6.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/adder_tree6.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vff_16x14b
+R0
+!i10b 1
+!s100 n>zGkZY1FzRNeNj^F6:MF1
+IHLX2i;S1mQH309Q@15kcg0
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x14b.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x14b.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vff_16x2b
+R0
+!i10b 1
+!s100 j`bmFnZ?SRNYQO]XK7Tjc1
+IH_Y;HAXAM3`2N8=Iz6Jm51
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x2b.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x2b.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vff_16x4b
+R0
+!i10b 1
+!s100 g<WP?aRgHc7b2acM:mNiA0
+I^bXhZg9e2n[TSBel9LK3K1
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x4b.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x4b.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vff_16x7b
+R0
+!i10b 1
+!s100 HbJ6fCQN>l@igTNL]aimz3
+IMTMdRNBX^:g?AYS;Dj0TV3
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x7b.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_16x7b.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vff_4b
+R0
+!i10b 1
+!s100 81;IP;8lcjRBUg[;?0WdK1
+IbTl@[>XHTTC2ACX]C0K:f0
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_4b.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/ff_4b.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vfir
+R0
+!i10b 1
+!s100 XeE1gTXTM[eeIMQkb8^m_1
+IGOo;i5a?QcM48:ZRlPR882
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/fir.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/fir.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vmag2com
+R0
+!i10b 1
+!s100 I2`NKD12YYCV@hI2gB7Q<0
+IXmBcIZZ1HP8;WI?Oi=kB>0
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/mag2com.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/mag2com.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vshift_mul
+R0
+!i10b 1
+!s100 d2o@RVAg^hBPPc3]33?CL0
+I2WK9Db0e=j_[Z5dCEMNUK1
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/shift_mul.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtb_fir
+R0
+!i10b 1
+!s100 500:4m5N^ohDE10N]RXQi1
+IE4bm6b:`SMgBo82oXe:TZ3
+R1
+R2
+R3
+8/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v
+F/data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1665982331.942936
+!s107 /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v|
+!s90 /data3/Class/ICCAD/2022_2/2022_2_iccad12/project/source/tb_fir.v|
+!i113 1
+R8
